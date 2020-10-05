@@ -19,6 +19,10 @@ html {
   max-width: 1400px;
 }
 
+[class*= 'col-'] {
+  position: relative;
+}
+
 .debug .container [class*='col-'] {
   /* border: 1px solid black; */
 }
@@ -69,6 +73,14 @@ html {
 }
 .nav_left {
   float: right;
+}
+
+.fa-bars {
+  float: right;
+  position: absolute;
+  top: 50%;
+  right: 15%;
+  transform:translate(0%, -50%);
 }
 
 /* hero (container_bottom) */
