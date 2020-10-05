@@ -15,8 +15,9 @@ html {
   height: 80px;
 }
 
-.container {
-  max-width: 1400px;
+.top_header.container {
+  width: 70%;
+  margin: auto;
 }
 
 [class*= 'col-'] {
@@ -88,6 +89,8 @@ html {
   background-image:url(../img/header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  height: 650px;
 }
 
 .bottom_header h1 {
@@ -107,7 +110,7 @@ html {
   border: 3px solid violet;
 } */
 
-.bottom_header.container [class*='col-'] {
+.bottom_header .container [class*='col-'] {
   position: relative;
 }
 .hero {
@@ -121,7 +124,36 @@ html {
   margin-bottom: 20px;
 }
 
-/* menu responsive */
 .f-right {
   float: right;
+}
+
+/* section 1 */
+.section-1.container {
+  height: 650px;
+  background-color: white;
+}
+
+.bike-widget {
+  margin: 100px;
+  background-color: #f5f5f5;
+  text-align: center;
+  /* border: 1px solid black; */
+  height: 450px;
+}
+
+.content-wrapper {
+  text-align: center;
+}
+
+.section-1.container .content-wrapper img {
+  max-height: 250px;
+}
+
+.content-wrapper h1,
+.content-wrapper p {
+  margin-bottom: 15px;
+}
+.content-wrapper h1 {
+  margin-top: 20px;
 }
